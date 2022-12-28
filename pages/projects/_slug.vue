@@ -9,7 +9,7 @@
         !text-transparent
         lg:!text-inherit
       "
-      :class="hoverPrev ? 'lg:opacity-1' : 'opacity-0'"
+      :class="hoverPrev && mouseIsActive ? 'lg:opacity-1' : 'opacity-0'"
     >
       PREV
     </div>
@@ -22,7 +22,7 @@
         !text-transparent
         lg:!text-inherit
       "
-      :class="hoverNext ? 'lg:opacity-1' : 'opacity-0'"
+      :class="hoverNext && mouseIsActive ? 'lg:opacity-1' : 'opacity-0'"
     >
       NEXT
     </div>
@@ -48,6 +48,7 @@
         z-20
       "
       @mouseenter="(hoverPrev = false), (hoverNext = false)"
+      @mousemove="mouseIsActive = true"
     >
       <div
         class="w-1/2"
@@ -162,6 +163,7 @@ import projectsData from "/content/projects.json";
 export default {
   data() {
     return {
+      mouseIsActive: false,
       show: false,
       isProject: true,
       nextIndex: null,
@@ -201,36 +203,28 @@ export default {
     },
     pagePrev() {
       if (parseInt(this.indexActive) > 1) {
-        this.$router
-          .push({
-            path: `/projects/0${parseInt(this.indexActive) - 1}`,
-            params: { slug: parseInt(this.indexActive) - 1 },
-          })
-         ;
+        this.$router.push({
+          path: `/projects/0${parseInt(this.indexActive) - 1}`,
+          params: { slug: parseInt(this.indexActive) - 1 },
+        });
       } else {
-        this.$router
-          .push({
-            path: `/projects/08`,
-            params: { slug: 8 },
-          })
-         ;
+        this.$router.push({
+          path: `/projects/08`,
+          params: { slug: 8 },
+        });
       }
     },
     pageNext() {
       if (parseInt(this.indexActive) <= 7) {
-        this.$router
-          .push({
-            path: `/projects/0${parseInt(this.indexActive) + 1}`,
-            params: { slug: parseInt(this.indexActive) + 1 },
-          })
-         ;
+        this.$router.push({
+          path: `/projects/0${parseInt(this.indexActive) + 1}`,
+          params: { slug: parseInt(this.indexActive) + 1 },
+        });
       } else {
-        this.$router
-          .push({
-            path: `/projects/01`,
-            params: { slug: 1 },
-          })
-         ;
+        this.$router.push({
+          path: `/projects/01`,
+          params: { slug: 1 },
+        });
       }
     },
     playVideo() {
