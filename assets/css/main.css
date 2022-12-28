@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Font';
+    src:    url('~/assets/font/font.woff') format('woff');
+    /* src:    url('~/assets/font/font.woff2') format('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    overscroll-behavior: none;
+    margin: 0;
+}
+
+.page{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overscroll-behavior: none;}
+
+
+
+.number:nth-child(5),
+.number:first-child  {
+    @apply lg:pl-0;
+}
+/* .number:nth-child(3)  {
+    @apply lg:pl-2;
+}
+.number:nth-child(7)  {
+    @apply lg:pl-2;
+}
+.number:nth-child(4)  {
+    @apply lg:pl-2;
+}
+.number:nth-child(8)  {
+    @apply lg:pl-2;
+}
+.number:nth-child(2)  {
+    @apply lg:pl-2;
+}
+.number:nth-child(6)  {
+    @apply lg:pl-2;
+} */
+
+.number  {
+    @apply pl-2 lg:px-1;
+}
+
+/* .images:first-child, */
+/* .images:nth-child(8)  {
+    @apply lg:pr-0;
+}
+.images:nth-child(16)  {
+    @apply lg:pr-0;
+} */
+
+
+.index-01 .number-01 a{
+    color: #000000 ;
+}
+.index-02 .number-02 a{
+    color: #000000 ;
+}
+.index-03 .number-03 a{
+    color: #000000 ;
+}
+.index-04 .number-04 a{
+    color: #000000 ;
+}
+.index-05 .number-05 a{
+    color: #000000 ;
+}
+.index-06 .number-06 a{
+    color: #000000 ;
+}
+.index-07 .number-07 a{
+    color: #000000 ;
+}
+.index-08 .number-08 a{
+    color: #000000 ;
+}
+.index-01 .number-01 {
+    @apply pl-0 -mr-1 lg:-mr-0;
+}
+.index-02 .number-02 {
+    @apply pl-0 lg:pl-1 -mr-1 lg:-mr-0;
+}
+.index-03 .number-03 {
+    @apply pl-0  lg:pl-1 -mr-1 lg:-mr-0;
+}
+.index-04 .number-04 {
+    @apply pl-0 lg:pl-1 -mr-1 lg:-mr-0;
+}
+.index-05 .number-05 {
+    @apply pl-0 -mr-1 lg:-mr-0;
+}
+.index-06 .number-06 {
+    @apply pl-0 lg:pl-1 -mr-1 lg:-mr-0;
+}
+.index-07 .number-07 {
+    @apply pl-0 lg:pl-1 -mr-1 lg:-mr-0;
+}
+.index-08 .number-08 {
+    @apply pl-0 lg:pl-1 -mr-1 lg:-mr-0
+}
+
+@layer base {
+html{
+    @apply text-[11.5px] leading-[12.5px]
+}
+}
+
+@layer components {
+.page {
+    @apply p-[7px];
+}
+
+}
+
+.animate-show{
+    animation: showin 1.5s;
+    @keyframes showin {
+        from {
+          opacity: 0;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+}

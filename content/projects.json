@@ -1,0 +1,208 @@
+[
+    {
+      "index": "01",
+      "slug": "ice-studio",
+      "title": "Ice Studio",
+      "description": "Logotype, Identity and Art direction for the 2022 Nike chicago Marathon with Nike and Bank of America",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":"https://www.instagram.com/nikechicago/?hl=fr"}, {"name":"@nikerunning", "url":null} ],
+      "slider":[{
+        "slug":"icestudio.jpg"
+      },{
+        "slug":"ice_studio_video.mp4",
+        "isVideo": true
+      }],
+      "images":[{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_986_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+      },{
+        "slug":"icestudio.jpg"
+      }
+      ]
+    },
+    {
+      "index": "02",
+      "slug": "chi22",
+      "title": "chi22",
+      "description": "Logotype, Identity and Art direction for the 2022 Nike chicago Marathon with Nike and Bank of America",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_986_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+      }],
+      "images":[{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+      "slug":"ice_studio_video.mp4",
+      "isVideo": true
+      }, {
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      }, {
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      }] },
+
+    {
+      "index": "03",
+      "slug": "project-3",
+      "title": "Project 3",
+      "description": "Mont Blanc is the highest mountain in the Alps and the highest in Europe west of the Caucasus peaks of Russia and Georgia. It rises 4,808 m above sea level and is ranked 11th in the world in topographic prominence.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"boyisagun_02.jpg"
+      },{
+        "slug":"boyisagun_045.jpg"
+      },{
+        "slug":"carcy_02.jpeg"
+      },{
+        "slug":"carcy_03.jpeg"
+      },{
+        "slug":"carcy_som_01.jpg"
+      }],
+      "images":[{
+        "slug":"boyisagun_02.jpg"
+      },{
+        "slug":"boyisagun_045.jpg"
+      },{
+        "slug":"carcy_02.jpeg"
+      },{
+        "slug":"carcy_03.jpeg"
+      },{
+        "slug":"carcy_som_01.jpg"
+      },{
+        "slug":"carcy_som_01.jpg"
+      },{
+        "slug":"carcy_som_01.jpg"
+      }]
+    },
+    {
+      "index": "04",
+      "slug": "project-4",
+      "title": "Project 4",
+      "description": "Aconcagua is a mountain in the Principal Cordillera of the Andes mountain range, in Mendoza Province, Argentina. It is the highest mountain in the Americas and the highest outside of Asia.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }],
+      "images":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }]
+    },
+    {
+      "index": "05",
+      "slug": "project-5",
+      "title": "Project 5",
+      "description": "Denali is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level. With a topographic prominence of 20,156 feet and a topographic isolation of 4,629 miles, Denali is the third most prominent and third most isolated peak on Earth, after Mount Everest and Aconcagua.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }],
+      "images":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }]
+    },
+    {
+      "index": "06",
+      "slug": "project-6",
+      "title": "Project 6",
+      "description": "Mont Blanc is the highest mountain in the Alps and the highest in Europe west of the Caucasus peaks of Russia and Georgia. It rises 4,808 m above sea level and is ranked 11th in the world in topographic prominence.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }],
+      "images":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }]
+    },
+    {
+      "index": "07",
+      "slug": "project-7",
+      "title": "Project 7",
+      "description": "Aconcagua is a mountain in the Principal Cordillera of the Andes mountain range, in Mendoza Province, Argentina. It is the highest mountain in the Americas and the highest outside of Asia.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_986_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+      }],
+      "images":[{
+        "slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Detail_986_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+      },{
+        "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+      },
+      {"slug":"Nike_FA22_RN_SMU_Detail_651_02.jpg"
+    },{
+      "slug":"Nike_FA22_RN_SMU_Detail_986_01.jpg"
+    },{
+      "slug":"Nike_FA22_RN_SMU_Group_104_01.jpg"
+    },{
+      "slug":"Nike_FA22_RN_SMU_Group_1821_01.jpg"
+    }
+    ]
+    },
+    {
+      "index": "08",
+      "slug": "project-8",
+      "title": "Project 8",
+      "description": "Denali is the highest mountain peak in North America, with a summit elevation of 20,310 feet above sea level. With a topographic prominence of 20,156 feet and a topographic isolation of 4,629 miles, Denali is the third most prominent and third most isolated peak on Earth, after Mount Everest and Aconcagua.",
+      "date":"October 2022",
+      "team":[{"name":"@someday", "url":null},{"name":"@nikechicago", "url":null} ],
+      "slider":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }],
+      "images":[{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      },{
+        "slug":"Icestudio_RenellMedrano_Asics.jpg"
+      }]
+    }
+  ]
