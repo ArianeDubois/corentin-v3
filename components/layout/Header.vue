@@ -93,7 +93,6 @@
           <div
             @click="togglleMenu"
             class="
-              -mb-2
               lg:mb-0 lg:pb-0
               w-full
               lg:w-1/2

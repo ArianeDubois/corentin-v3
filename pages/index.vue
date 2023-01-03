@@ -70,7 +70,7 @@
           swiper
           w-auto
           lg:h-[80vw]
-          max-h-[80vh] max-w-[90vw]
+          max-h-[75vh] max-w-[90vw]
           lg:max-w-[80vw]
         "
       >
@@ -208,7 +208,7 @@ export default {
     slidePrev() {
       if (this.slider.activeIndex < 1) {
         this.slider.slideTo(this.$refs.slide.length - 1);
-        this.indexActive = "08";
+        this.indexActive = "07";
       } else {
         this.slider.slidePrev();
         this.indexActive =

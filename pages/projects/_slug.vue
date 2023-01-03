@@ -209,13 +209,13 @@ export default {
         });
       } else {
         this.$router.push({
-          path: `/projects/08`,
-          params: { slug: 8 },
+          path: `/projects/07`,
+          params: { slug: 7 },
         });
       }
     },
     pageNext() {
-      if (parseInt(this.indexActive) <= 7) {
+      if (parseInt(this.indexActive) <= 6) {
         this.$router.push({
           path: `/projects/0${parseInt(this.indexActive) + 1}`,
           params: { slug: parseInt(this.indexActive) + 1 },
