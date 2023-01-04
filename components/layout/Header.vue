@@ -34,8 +34,8 @@
         "
       >
         <div class="w-1/2 flex-1 pr-1">
-          <NuxtLink to="/">
-            <div>
+          <div>
+            <NuxtLink to="/">
               <h1
                 class="
                   border-transparent
@@ -48,18 +48,17 @@
                 "
               >
                 Corentin Corneau, Selected works
-
-                <span class="lg:hidden flex p-0 m-0">
-                  <a href="mailto:info@corentincorneau.com">Email,</a>
-                  <a
-                    href="https://www.instagram.com/corentin.corneau/?hl=en"
-                    target="_blank"
-                    > Instagram</a
-                  >
-                </span>
               </h1>
-            </div>
-          </NuxtLink>
+            </NuxtLink>
+            <span class="lg:hidden flex p-0 m-0">
+              <a href="mailto:info@corentincorneau.com">Email,</a>
+              <a
+                href="https://www.instagram.com/corentin.corneau/?hl=en"
+                target="_blank"
+                > Instagram</a
+              >
+            </span>
+          </div>
         </div>
 
         <div class="flex flex-wrap lg:flex-nowrap lg:w-1/2 flex-1">
@@ -127,7 +126,7 @@
 
           <div class="w-1/2 pt-0.5 pb-2 lg:ml-2">
             {{ about.description }}
-            <span class="pt-4 lg:pt-0">
+            <div class="pt-4 lg:pt-0">
               IG: <a
                 href="https://www.instagram.com/corentin.corneau/?hl=en"
                 target="_blank"
@@ -136,7 +135,7 @@
               <a href="mailto:info@corentincorneau.com"
                 >Mail: info@corentincorneau.com</a
               >
-            </span>
+            </div>
           </div>
         </div>
 
@@ -154,7 +153,7 @@
           <div class="w-full lg:w-1/2 flex">
             <div class="w-1/2 pt-0.5 lg:ml-1.5">Clients</div>
             <div class="w-1/2 pt-0.5">
-            {{ about.clients }}
+              {{ about.clients }}
             </div>
           </div>
 
@@ -171,7 +170,7 @@
           >
             <div class="w-full lg:w-1/2 pt-0.5 lg:ml-1">Credits</div>
             <div class="w-full lg:w-1/2 pt-0.5">
-      {{about.credits }} <br />New york time:
+              {{ about.credits }} <br />New york time:
 
               {{
                 new Date()
